@@ -1,0 +1,21 @@
+import rental
+"""
+print(rental.Property().prompt_init())
+print("\n")
+print(rental.Apartment().prompt_init())
+print('\n')
+print(rental.House().prompt_init())
+print("\n")
+print(rental.Purchase().prompt_init())
+print("\n")
+print(rental.HouseRental().prompt_init())
+print("\n")
+print(rental.ApartmentPurchase().prompt_init())
+print('\n')
+print(rental.HouseRental().prompt_init())
+print("\n")
+print(rental.Agent().add_property())
+"""
+agent = rental.Agent()
+agent.add_property()
+agent.display_properties()
